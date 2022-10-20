@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "https://manuelMarkDenver.github.io/mern-auth-jwt/",
+  "homepage": "http://manuelMarkDenver.github.io/mern-auth-jwt/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
