@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
-    "dev": "concurrently \" nodemon index.js\" \"  npm run start --prefix ../client\" "
+    "dev": "concurrently \" nodemon index.js\" \"  npm run start --prefix ../client\" ",
+    "heroku-postbuild": "npm run install-client && npm run build"
   },
   "keywords": [],
   "author": "",
